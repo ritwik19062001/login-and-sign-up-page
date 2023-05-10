@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik';
+    align-items: center;
+}
+.container{
+    left: 0px;
+    width: 300px;
+    height: 550px;
+    background: #F7F8F9 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+position: relative;
+}
+
+.container h1{
+   
+    position: absolute;
+    top: 360px;
+    left: 20px;
+    font-size: 20px;
+    color: #1D2226;
+    
+}
+
+.container p{
+    position: absolute;
+    top: 390px;
+    left: 22px;
+    font-size: 15px;
+color: #1D2226;
+opacity: 0.6;
+}
+
+.buttons{
+   margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+   
+ 
+}
+
+.createb{
+    top: 450px;
+    border: 0px;
+    font-weight: bold;
+    position: absolute;
+    background-color: #6C25FF;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 65px;
+    cursor: pointer;
+    
+}
+ .createb a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.loginb{
+
+    border: 0px;
+    font-weight: bold;
+    position: absolute;
+    background-color: #6C25FF4B;
+    border-radius: 5px;
+    color: #1D2226;
+    top: 500px;
+    padding: 8px 50px;
+    cursor: pointer;
+}
+
+.loginb a{
+    color: #1D2226;
+    text-decoration: none;
+}
+
+
+.signin-box{
+    left: 0px;
+    width: 300px;
+    height: 612px;
+    background: #F7F8F9 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+  
+  .coolinput label.text {
+    font-size: 0.75rem;
+    color: #818CF8;
+    font-weight: 700;
+    position: relative;
+    top: 0.5rem;
+    margin: 0 0 0 7px;
+    padding: 0 3px;
+    background: #F7F8F9;
+    width: fit-content;
+  }
+  
+  .coolinput input[type=text].input {
+    padding: 11px 10px;
+    font-size: 0.75rem;
+    border: 1px solid #CBCBCB;
+    border-radius: 5px;
+    background: #F7F8F9;
+    width: 100%;
+  }
+  
+  .coolinput input[type=text].input:focus {
+    outline: none;
+  }
+
+.signin-box h1{
+    font-size: 28px;
+}
+
+.signin-box p{
+    position: absolute;
+    left: 20px;
+    top: 110px;
+    font-size: 15px;
+    color: #1D2226;
+    opacity: 0.6;
+    padding-bottom: 20px;
+}
+
+.signinb{
+    position: absolute;
+    top: 280px;
+    left: 20px;
+    background-color: #6C25FF;
+     color: white;
+     border-radius: 5px;
+     padding: 5px 110px;
+     cursor: pointer;
+     border: 0px;
+}
+
+.signinb a{
+    color: white;
+    text-decoration: none;
+}
+
+.signup-box{
+    left: 0px;
+    width: 300px;
+    height: 612px;
+    background: #F7F8F9 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-size: 28px;
+}
+
+form{
+    margin-top: 130px;
+    width: 150px;
+    margin-left: 20px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+}
+form p{
+    margin-top: 20px;
+}
+form p input{
+    margin-top: 20px;
+}
+.caccountb{
+    position: absolute;
+   top: 550px;
+   left: 20px;
+   background-color: #6C25FF;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 80px;
+    cursor: pointer;
+    border: 0px;
+}
+
+.caccountb a{
+    color: white;
+    text-decoration: none;
+}
+
+.wrapper{
+    border: 5px;
+    background-color: aqua;
+}
+.account-box{
+    left: 0px;
+    width: 320px;
+    height: 612px;
+    background: #F7F8F9 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+
+}
+
+.top-content{
+    width: 375px;
+    height: 68px;
+    background-color: #FFFFFF;
+   display: flex;
+   align-items: center;
+   padding-left: 15px;
+   
+}
+
+.img-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    padding: 15px;
+}
+.profile-img{
+    position: relative;
+}
+.female-img{
+    z-index: -1;
+}
+.camera-img{
+    position: absolute;
+    z-index: 10;
+    bottom: 3px;
+    right: 20px;
+}
+
+.aname{
+    font-size: 15px;
+    font-weight: bold;
+    color: #1D2226;
+    opacity: 1;
+}
+.anameemail{
+    font-size: 15px;
+    color: #1D2226;
+    opacity: 1;
+}
+.para{
+    margin-left: 20px;
+    margin-top: 25px;
+   padding-bottom: 20px;
+    border-bottom: dashed;
+    border-color: #cbcbcb;
+    border-width: 1px;
+    color: #1D2226;
+    font-size: 12px;
+    opacity: 1;
+}
+
+
+
+
